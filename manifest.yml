@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-rahul
+  host: iot-rahul
+  disk_quota: 1024M
+  services:
+  - iot-rahul-cloudantNoSQLDB
+  - iot-rahul-iotf-service
